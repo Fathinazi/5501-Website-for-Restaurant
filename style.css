@@ -1,0 +1,385 @@
+/*body styles*/
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*navigation bar styles*/
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(90deg, #00b7ff, #016389, #012635); 
+
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+/*first page style*/
+.first1{
+    height: 100vh;
+    width: 100wd;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: url(a7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.first1 div{
+    background-color:#1f242d;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+}
+.first11{
+    background-image: url(a1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first12{
+    background-image: url(a7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15%;
+    padding-left: 15%;
+    color: aqua;
+
+}
+.fb{
+    padding-left: 15%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.fc{
+    padding-left: 15%;
+    text-align: center;
+    font-size: 20px;
+ 
+   font-style: italic;
+   color: white;
+}
+/*button styling*/
+.btn{
+    margin-left: 45%;
+    font-size: 20px;
+    font-style: italic;
+    background: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    border-color: #0ef;
+    
+    
+   
+}
+/*second page styling*/
+.four{
+    height: 100vh;
+    width: 100wd;
+  background-image: url(a7.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding-top: 7%;
+
+}
+
+
+.ca{
+    text-align: center;
+    color:aqua;
+    font-size: 70px;
+    font-weight: bold;
+}
+.cd{
+    text-align: center;
+    color: white;
+    
+}
+/*third page styling*/
+.five{
+    height: 100vh;
+    width: 100wd;
+   background-image: url(a7.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.da{
+    text-align: center;
+    font-size: 70px;
+    color: aqua;
+    padding-top: 10%;
+}
+.db{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.db div{
+    
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+/*table head styling*/
+.dc{
+    font-size: 60px;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+
+}
+/*table data styling*/
+.dd{
+    font-size: 30px;
+    color: white;
+}
+/*table head styling*/
+.de{
+    font-size: 60px;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+
+}
+/*table data styling*/
+.df{
+    font-size: 30px;
+    color: white;
+}
+/*table caption styling*/
+.foo{
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+/*table styling*/
+.tab{
+    margin-left: 6%; 
+}
+/*table caption styling*/
+.bev{
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+/*fourth page styling*/
+.six{
+   height: 100vh;
+   width: 100wd;
+   background-image: url(a7.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+.six1{
+    text-align: center;
+    color:aqua;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+/*gallery styling*/
+.ab{
+    margin-left: 10%;
+} 
+/*fifth page styling*/   
+ .seven{
+    height: 100vh;
+    width: 100wd;
+    background-image: url(a7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.seven div{
+   
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+}
+.sev1{
+    color:aqua;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.sev2{
+    color: silver;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 5%;
+    
+}
+.sev3{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 7%;
+}
+.sev4{
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 35%;
+
+}
+/*linking styling*/
+.fa-brands {
+    font-size: 30px;
+    padding-left: 7%;
+}
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: left;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    color: aqua;
+    text-decoration: none;
+    margin:15px 10px 25px 40px;
+
+
+}
+.social a:hover{
+    background: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0ef;
+}
+/*image styling*/
+.imgg{
+    margin-top: 15%;
+     
+ }
+ /*last page styling*/
+.eight{
+    height: 100vh;
+    width: 100wd;
+    background-image: url(a7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ei{
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 70px;
+}
+.fi{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.fi div{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+/*form styling*/
+.eii{
+    font-size: 35px;
+    margin-left: 7%;
+    color: silver;
+
+
+}
+
+
+.for{
+    display: flex;
+    flex-direction: column;
+}
+.for .fo{
+    width: 50%;
+    height: 40%;
+   padding: 8px 0;
+    margin: 1.67rem 0;
+   margin-left: 5%;
+   margin-right: 60%;
+}
+.but{
+    width:63%;
+    height:50%;
+    background: #0ef;
+    border-radius: 40px #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color:#1f242d;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-color: aqua;
+    padding: 7px 0;
+}
+
+.fi3{
+    color: silver;
+    font-size: 35px;
+    padding-left: 5%;
+}
+
+
